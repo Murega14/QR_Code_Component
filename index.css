@@ -42,3 +42,23 @@ body {
     color: hsl(220, 15%, 55%);
     font-size: 1.3rem;
 }
+
+.attribution {
+    justify-content: end;
+    display: inline-block;
+    align-items: end;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        padding: 15px;
+    }
+
+    .card h6 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+}
